@@ -10,11 +10,9 @@ This is a website visualizing each state’s testing relative to their populatio
 
 [**testing.predictcovid.com**](https://testing.predictcovid.com)
 
-Also see: [**predictcovid.com**](https://predictcovid.com) ([repo](https://github.com/lachlanjc/covid19))
-
 ## Getting started
 
-1. `git clone https://github.com/lachlanjc/covidtesting`
+1. `git clone https://github.com/kingofdevs/react-next-covid19-usa`
 2. `cd covidtesting`
 3. `yarn`
 4. `yarn dev`
