@@ -112,12 +112,12 @@ export default ({ material = false }) => {
         {back ? (
           <BackButton text="All States" />
         ) : (
-          <Link href="/" passHref>
-            <NavLink as="a" sx={{ ...linkEffect, px: 2, py: 1, ml: -2 }}>
-              Testing Gap
+            <Link href="/" passHref>
+              <NavLink as="a" sx={{ ...linkEffect, px: 2, py: 1, ml: -2 }}>
+                Testing Gap
             </NavLink>
-          </Link>
-        )}
+            </Link>
+          )}
         <NavLink
           href="https://predictcovid.com"
           sx={{ ...linkEffect, px: 2, py: 1, ml: 'auto' }}
