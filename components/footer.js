@@ -13,10 +13,10 @@ export default () => (
     }}
   >
     <Text sx={{ mb: 3 }}>
-      Site by <Link href="https://lachlanjc.me">@lachlanjc</Link>, 2020.
+      Site by <Link href="https://github.com/kingofdevs">@kingofdevs</Link>, 2020.
     </Text>
     <Text>
-      <Link href="https://github.com/lachlanjc/covidtesting">
+      <Link href="https://github.com/kingofdevs/react-next-covid19-usa">
         Open source on GitHub
       </Link>
     </Text>
