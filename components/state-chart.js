@@ -69,7 +69,7 @@ const StateChart = ({ data, colorMode }) => (
           line-height: 1.5;
         }
         ${colorMode === 'dark' &&
-          `
+        `
           .recharts-default-tooltip {
             background-color: #1e1e1e !important;
           }

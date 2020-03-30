@@ -73,21 +73,21 @@ const StatesGraphic = ({ data, colorRange, showValues = false, dataKey }) => {
                         </text>
                       </Marker>
                     ) : (
-                      <Annotation
-                        subject={centroid}
-                        dx={offsets[cur.abbrev]?.[0]}
-                        dy={offsets[cur.abbrev]?.[1]}
-                      >
-                        <text
-                          x={4}
-                          fontSize={14}
-                          alignmentBaseline="middle"
-                          fill={theme.colors.text}
+                        <Annotation
+                          subject={centroid}
+                          dx={offsets[cur.abbrev]?.[0]}
+                          dy={offsets[cur.abbrev]?.[1]}
                         >
-                          {label}
-                        </text>
-                      </Annotation>
-                    ))}
+                          <text
+                            x={4}
+                            fontSize={14}
+                            alignmentBaseline="middle"
+                            fill={theme.colors.text}
+                          >
+                            {label}
+                          </text>
+                        </Annotation>
+                      ))}
                 </g>
               )
             })}
