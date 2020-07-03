@@ -1,3 +1,5 @@
+# NOTE: THIS REPO IS A DIRECT COPY OF [COVIDTesting](https://github.com/lachlanjc/covidtesting) by [@lachlanjc](https://github.com/lachlanjc).
+
 <img alt="Banner" width="512" src="https://testing.predictcovid.com/card.png" />
 
 # The COVID-19 Testing Gap
